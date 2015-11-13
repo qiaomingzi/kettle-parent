@@ -1,0 +1,13 @@
+#ignore class file
+*.class
+#ignore package file
+*.war
+*.ear
+#igore maven generated target folders
+target
+#ignore eclipse files
+.project
+.classpath
+.settings
+.metadata
+#gitignore

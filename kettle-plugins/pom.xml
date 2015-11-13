@@ -1,0 +1,37 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>cn.ffcs.sqopen</groupId>
+        <artifactId>kettle-parent</artifactId>
+        <version>3.0.003</version>
+    </parent>
+    <artifactId>kettle-plugins</artifactId>
+    <packaging>pom</packaging>
+    <modules>
+        <module>aggregate-rows</module>
+        <module>elasticsearch-bulk-insert</module>
+        <module>get-previous-row-field</module>
+        <module>googleanalytics</module>
+        <module>gp-bulk-loader</module>
+        <module>kettle5-log4j-plugin</module>
+        <module>kettle-drools5-plugin</module>
+        <module>kettle-dummy-plugin</module>
+        <module>kettle-gpload-plugin</module>
+        <module>kettle-hl7-plugin</module>
+        <module>kettle-openerp-plugin</module>
+        <module>kettle-palo-plugin</module>
+        <module>kettle-s3csvinput-plugin</module>
+        <module>kettle-shapefilereader-plugin</module>
+        <module>kettle-version-checker</module>
+        <module>lucid-db-bulk-loader</module>
+        <module>lucid-db-streaming-loader</module>
+        <module>ms-access-bulk-loader</module>
+        <module>pdi-pur-plugin</module>
+        <module>salesforce</module>
+        <module>ssh2-plugin</module>
+        <module>star-modeler</module>
+        <module>xml-input</module>
+        <module>xml-input-stream</module>
+    </modules>
+</project>

@@ -1,0 +1,19 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>cn.ffcs.sqopen</groupId>
+        <artifactId>kettle-parent</artifactId>
+        <version>3.0.003</version>
+    </parent>
+    <artifactId>commons-xul</artifactId>
+    <packaging>pom</packaging>
+    <modules>
+        <module>pentaho-xul-core</module>
+        <module>pentaho-xul-gwt</module>
+        <module>pentaho-xul-html</module>
+        <module>pentaho-xul-samples</module>
+        <module>pentaho-xul-swing</module>
+        <module>pentaho-xul-swt</module>
+    </modules>
+</project>

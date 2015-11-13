@@ -1,0 +1,45 @@
+﻿<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>cn.ffcs.sqopen</groupId>
+        <artifactId>kettle-plugins</artifactId>
+        <version>3.0.003</version>
+    </parent>
+    <version>5.4.0.1-130</version>
+    <artifactId>kettle-gpload-plugin</artifactId>
+    <packaging>jar</packaging>
+
+    <dependencies>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.11</version>
+        </dependency>
+        <dependency>
+            <groupId>cn.ffcs.sqopen</groupId>
+            <artifactId>kettle-engine</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>cn.ffcs.sqopen</groupId>
+            <artifactId>kettle-core</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>cn.ffcs.sqopen</groupId>
+            <artifactId>kettle-ui-swt</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.eclipse.swt</groupId>
+            <artifactId>swt-win-x86</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.eclipse</groupId>
+            <artifactId>jface</artifactId>
+            <version>3.3.0-I20070606-0010</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-vfs2</artifactId>
+        </dependency>
+    </dependencies>
+</project>

@@ -1,0 +1,49 @@
+﻿<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>cn.ffcs.sqopen</groupId>
+        <artifactId>commons-xul</artifactId>
+        <version>3.0.003</version>
+    </parent>
+    <version>5.4.0.1-130</version>
+    <artifactId>pentaho-xul-swt</artifactId>
+    <packaging>jar</packaging>
+
+    <dependencies>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.4</version>
+        </dependency>
+        <dependency>
+            <groupId>jaxen</groupId>
+            <artifactId>jaxen</artifactId>
+            <version>1.1</version>
+        </dependency>
+        <dependency>
+            <groupId>org.eclipse</groupId>
+            <artifactId>jface</artifactId>
+            <version>3.3.0-I20070606-0010</version>
+        </dependency>
+        <dependency>
+            <groupId>org.eclipse.core</groupId>
+            <artifactId>commands</artifactId>
+            <version>3.3.0-I20070605-0010</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.eclipse.equinox</groupId>
+            <artifactId>common</artifactId>
+            <version>3.3.0-v20070426</version>
+        </dependency>
+        <dependency>
+            <groupId>org.eclipse.swt</groupId>
+            <artifactId>swt-win-x86</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>cn.ffcs.sqopen</groupId>
+            <artifactId>pentaho-xul-core</artifactId>
+        </dependency>
+    </dependencies>
+</project>
