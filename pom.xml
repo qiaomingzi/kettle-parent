@@ -14,7 +14,6 @@
         <module>metastore</module>
         <module>commons-xul</module>
         <module>pentaho-vfs-browser</module>
-        <module>kettle-engine-test</module>
     </modules>
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>	
@@ -76,11 +75,6 @@
             <dependency>
                 <groupId>cn.ffcs.sqopen</groupId>
                 <artifactId>metastore</artifactId>
-                <version>5.4.0.1-130</version>
-            </dependency>
-            <dependency>
-                <groupId>cn.ffcs.sqopen</groupId>
-                <artifactId>kettle-engine-test</artifactId>
                 <version>5.4.0.1-130</version>
             </dependency>
             <dependency>
@@ -344,6 +338,21 @@
             <dependency>
                 <groupId>org.pentaho</groupId>
                 <artifactId>pentaho-capability-manager</artifactId>
+                <version>6.0.0.0-353</version>
+            </dependency>
+            <dependency>
+                <groupId>org.pentaho</groupId>
+                <artifactId>pentaho-platform-core</artifactId>
+                <version>6.0.0.0-353</version>
+            </dependency>
+            <dependency>
+                <groupId>org.pentaho</groupId>
+                <artifactId>pentaho-platform-api</artifactId>
+                <version>6.0.0.0-353</version>
+            </dependency>
+            <dependency>
+                <groupId>org.pentaho</groupId>
+                <artifactId>pentaho-platform-extensions</artifactId>
                 <version>6.0.0.0-353</version>
             </dependency>
 

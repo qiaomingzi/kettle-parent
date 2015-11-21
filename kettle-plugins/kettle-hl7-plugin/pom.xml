@@ -11,11 +11,11 @@
     <packaging>jar</packaging>
 
     <dependencies>
-        <dependency>
+      <!--  <dependency>
             <groupId>ca.uhn.hapi</groupId>
             <artifactId>hapi</artifactId>
             <version>1.1</version>
-        </dependency>
+        </dependency>-->
         <dependency>
             <groupId>ca.uhn.hapi</groupId>
             <artifactId>hapi-base</artifactId>

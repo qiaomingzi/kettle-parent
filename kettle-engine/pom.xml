@@ -67,12 +67,10 @@
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
-            <version>4.11</version>
         </dependency>
         <dependency>
             <groupId>org.mockito</groupId>
             <artifactId>mockito-all</artifactId>
-            <version>1.9.5</version>
         </dependency>
         <dependency>
             <groupId>org.antlr</groupId>
@@ -124,11 +122,11 @@
             <artifactId>guava</artifactId>
             <version>17.0</version>
         </dependency>
-        <dependency>
+        <!--<dependency>
             <groupId>infobright</groupId>
             <artifactId>infobright-core</artifactId>
             <version>3.4</version>
-        </dependency>
+        </dependency>-->
         <dependency>
             <groupId>org.ini4j</groupId>
             <artifactId>ini4j</artifactId>
