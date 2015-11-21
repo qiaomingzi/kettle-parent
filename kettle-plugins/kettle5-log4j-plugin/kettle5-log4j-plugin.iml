@@ -39,6 +39,7 @@
     <orderEntry type="library" name="Maven: ftp4che:ftp4che:0.7.1" level="project" />
     <orderEntry type="library" name="Maven: georss-rome:georss-rome:0.9.8" level="project" />
     <orderEntry type="library" name="Maven: com.google.guava:guava:17.0" level="project" />
+    <orderEntry type="library" name="Maven: com.infobright.etl:infobright-core:3.4" level="project" />
     <orderEntry type="library" name="Maven: org.ini4j:ini4j:0.5.1" level="project" />
     <orderEntry type="library" name="Maven: janino:janino:2.5.16" level="project" />
     <orderEntry type="library" name="Maven: javadbf:javadbf:20081125" level="project" />
@@ -118,6 +119,8 @@
     <orderEntry type="library" name="Maven: org.slf4j:jul-to-slf4j:1.6.1" level="project" />
     <orderEntry type="library" name="Maven: org.slf4j:jcl-over-slf4j:1.6.1" level="project" />
     <orderEntry type="library" name="Maven: org.xerial.snappy:snappy-java:1.1.0" level="project" />
+    <orderEntry type="library" name="Maven: commons-math:commons-math:1.1" level="project" />
+    <orderEntry type="library" name="Maven: commons-discovery:commons-discovery:0.2" level="project" />
     <orderEntry type="library" name="Maven: org.eclipse.jetty:jetty-plus:8.1.15.v20140411" level="project" />
     <orderEntry type="library" name="Maven: org.eclipse.jetty.orbit:javax.transaction:1.1.1.v201105210645" level="project" />
     <orderEntry type="library" name="Maven: org.eclipse.jetty:jetty-jndi:8.1.15.v20140411" level="project" />
